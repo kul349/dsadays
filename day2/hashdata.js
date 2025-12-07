@@ -37,8 +37,10 @@ class Hash {
 
 const keys=[7,18,12,25];
 const  hasTable=new Hash(7);
+
 for(const key of keys){
 hasTable.insert(key)
 }
+
 hasTable.remove(12);
 hasTable.display();
